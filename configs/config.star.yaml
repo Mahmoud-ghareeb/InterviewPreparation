@@ -1,6 +1,5 @@
 Version: 1.0
 Description: STAR Interview Simulator
-API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 prompts:
   initial_propmt: >-
     You are an Interviewer for data analyst interview
