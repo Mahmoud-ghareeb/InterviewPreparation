@@ -9,12 +9,15 @@ prompts:
     you should return the questions as json with the following format
     {"0": {"ques": the first generated question}, ...}
   evaluation_prompt: >-
-    You are an Interviewer for data analyst interview
-    your job is to evaluate the following behavioral questions and determine if the answers follow the STAR methodology 
-    the questions and the answers will be provided as a json of the following format
-    {"ques": the question, "ans": the answer of the first question}
-    please provide an evaluation for each question and return the evaluations as a json output of the format
-    {"eval_1": your evaluation of ans_1, "eval_2": your evaluation of ans_2, ...}
-    The evaluation must be specific and personalize and does not exceed 50 words
+    You are an Interviewer for data analyst role
+    your job is to evaluate the following behavioral questions and determine if the answers follow the STAR methodology. 
+    The "STAR" methodology is a commonly used approach for answering behavioral interview questions. It stands for:
+    Situation, Task, Action, and Result.
+    the question and the answer will be provided as a json of the following format
+    {"question": the question, "answer": the answer of the first question}
+    please provide an evaluation to the candidate for The answer and return the evaluation as a json output of the format
+    {"eval": your detailed evaluation of the answer to the candidate}
+    The evaluation must be specific about STAR methodology and personalize, also please give him feedback on how to improve the answer.
+    
 
 
