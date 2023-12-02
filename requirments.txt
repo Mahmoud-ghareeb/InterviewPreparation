@@ -2,3 +2,7 @@ openai
 yaml
 python-dotenv
 openai
+numpy
+pandas
+json
+os
